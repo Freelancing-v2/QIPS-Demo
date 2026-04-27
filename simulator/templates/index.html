@@ -170,7 +170,7 @@
       <div class="ctrl"><label>w₃ deadline ↓</label><input type="range" min="0" max="30" value="20" step="1" id="w3" oninput="cv('lw3',(this.value/10).toFixed(1))"><span class="val" id="lw3">2.0</span></div>
       <div class="ctrl"><label>w₄ resource ↑</label><input type="range" min="0" max="30" value="10" step="1" id="w4" oninput="cv('lw4',(this.value/10).toFixed(1))"><span class="val" id="lw4">1.0</span></div>
       <div class="ctrl"><label>w₅ locality ↑</label><input type="range" min="0" max="30" value="12" step="1" id="w5" oninput="cv('lw5',(this.value/10).toFixed(1))"><span class="val" id="lw5">1.2</span></div>
-      <div class="ctrl"><label>w₆ SLA score ↑</label><input type="range" min="0" max="30" value="15" step="1" id="w6" oninput="cv('lw6',(this.value/10).toFixed(1))"><span class="val" id="lw6">1.5</span></div>
+      <div class="ctrl"><label>w₆ Priority score ↑</label><input type="range" min="0" max="30" value="15" step="1" id="w6" oninput="cv('lw6',(this.value/10).toFixed(1))"><span class="val" id="lw6">1.5</span></div>
     </div>
 
     <div>
@@ -197,7 +197,7 @@
       <div class="met"><div class="met-head"><span class="met-lbl">Deadlines met</span><span class="met-dir dir-up">↑ higher</span></div><div class="met-val" id="m-dlmet">—</div><div class="met-sub">jobs finishing on time</div><div class="met-delta" id="d-dlmet"></div></div>
       <div class="met"><div class="met-head"><span class="met-lbl">Resource usage</span><span class="met-dir dir-up">↑ higher</span></div><div class="met-val" id="m-util">—</div><div class="met-sub">cluster CPU utilisation</div><div class="met-delta" id="d-util"></div></div>
       <div class="met"><div class="met-head"><span class="met-lbl">Data locality</span><span class="met-dir dir-up">↑ higher</span></div><div class="met-val" id="m-loc">—</div><div class="met-sub">tasks near their data</div><div class="met-delta" id="d-loc"></div></div>
-      <div class="met"><div class="met-head"><span class="met-lbl">SLA score</span><span class="met-dir dir-up">↑ higher</span></div><div class="met-val" id="m-pri">—</div><div class="met-sub">priority × on-time × local</div><div class="met-delta" id="d-pri"></div></div>
+      <div class="met"><div class="met-head"><span class="met-lbl">Priority score</span><span class="met-dir dir-up">↑ higher</span></div><div class="met-val" id="m-pri">—</div><div class="met-sub">priority × on-time × local</div><div class="met-delta" id="d-pri"></div></div>
       <div class="met"><div class="met-head"><span class="met-lbl">Throughput</span><span class="met-dir dir-up">↑ higher</span></div><div class="met-val" id="m-tput">—</div><div class="met-sub">jobs per 100s</div><div class="met-delta" id="d-tput"></div></div>
     </div>
 
